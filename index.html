@@ -414,10 +414,10 @@
             text-align: justify;
             font-family: "Nunito", sans-serif;
         }
-
+        
         .about .info-grid {
             display: grid;
-            grid-template-columns: 1fr 1fr;
+            grid-template-columns: 1fr;
             gap: 2rem;
             margin-bottom: 3rem;
         }
@@ -1237,15 +1237,26 @@
             <h3>I'm Mutiara</h3>
             
             <p class="description">A fresh graduate in Information Systems with a strong interest in becoming a System Analyst, Business Analyst, or Technical Writer. I have hands-on experience in analyzing user needs, designing systems and interfaces, and preparing project documentation. Familiar with SDLC, OOP, MVC, and Business Process Modeling. Actively involved in ERP internship projects and student organizations as a Secretary, where I honed my skills in structured reporting, SOP writing, and team coordination. Detail-oriented, analytical, and passionate about bridging business needs with technology.</p>
-
-                <div class="info-box">
+            <div class="info-grid mb-4">
+                <div class="info-box mb-4">
                     <p><i class="fas fa-envelope"></i><span>Email:</span> mutiaramaharani193@gmail.com</p>
                     <p><i class="fas fa-map-marker-alt"></i><span>Location:</span> Pariaman, Sumatera Barat - Indonesia</p>
                 </div>
-                <!-- <div class="info-box">
-                    <p><i class="fas fa-graduation-cap"></i><span>Degree:</span> Bachelor's in Information Systems</p>
-                    <p><i class="fas fa-university"></i><span>University:</span> Andalas University</p>
-                </div> -->
+                <div class="info-box mb-4">
+                    <p><i class="fas fa-certificate"></i><span>Certification:</span> Database Administrator (Software Development)</p>
+                    <p><i class="fas fa-building"></i><span>Institution:</span> BNSP – LSP LP31</p>
+                    <p><i class="fas fa-calendar-alt"></i><span>Date:</span> Jan 2025</p>
+                    <div class="certification-details">
+                        <h4>Core Competencies:</h4>
+                        <ul>
+                            <li>Installing and configuring programming software tools</li>
+                            <li>Implementing user interfaces and designing user experiences</li>
+                            <li>Implementing entity and relationship models using SQL</li>
+                            <li>Applying database access techniques</li>
+                        </ul>
+                    </div>
+                </div>
+                </div>
             </div>
         </div>
     </div>
@@ -1264,23 +1275,16 @@
                 <p>Business process improvement, stakeholder management, and workflow optimization</p>
             </div>
             <div class="skill-item">
+                <i class="fas fa-database"></i>
+                <h4>Data Analysis</h4>
+                <p>Data processing, visualization, and extracting insights using SQL and Python</p>
+            </div>
+            <div class="skill-item">
                 <i class="fas fa-pen-fancy"></i>
                 <h4>Technical Writing</h4>
                 <p>Documentation creation, SOP development, and structured technical reporting</p>
             </div>
-            <div class="skill-item">
-                <i class="fas fa-cogs"></i>
-                <h4>Development Methodologies</h4>
-                <p>Agile, Waterfall, OOP principles, MVC architecture, and ERP systems</p>
-            </div>
         </div>
-    </div>
-
-    <div class="resume-section" style="text-align: center; margin-top: 4rem;">
-        <a href="https://drive.google.com/drive/folders/1ftPk81wHh3qIXbmrO5Z3AqeV3F5LjvR4?usp=sharing" target="_blank" class="btn">
-            <span>View Resume</span>
-            <i class="fas fa-chevron-right"></i>
-        </a>
     </div>
 </section>
 
@@ -1341,15 +1345,15 @@
             { "name": "Python", "icon": "https://img.icons8.com/color/48/000000/python--v1.png" },
             { "name": "C++", "icon": "https://img.icons8.com/color/48/000000/c-plus-plus-logo.png" },
             { "name": "JavaScript", "icon": "https://img.icons8.com/color/48/000000/javascript--v1.png" },
-            { "name": "Java", "icon": "https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png" },
-            { "name": "Node.js", "icon": "https://img.icons8.com/color/48/nodejs.png" },
+            { "name": "VSCode", "icon": "https://img.icons8.com/fluency/50/visual-studio-code-2019.png" },
             { "name": "XAMPP", "icon": "./assets/images/skills/xampp.png" },
             { "name": "MySQL", "icon": "https://img.icons8.com/color/48/000000/mysql-logo.png" },
             { "name": "PostgreSQL", "icon": "https://img.icons8.com/color/48/000000/postgreesql.png" },
             { "name": "MongoDB", "icon": "https://img.icons8.com/color/48/000000/mongodb.png" },
             { "name": "CouchDB", "icon": "https://www.vectorlogo.zone/logos/apache_couchdb/apache_couchdb-icon.svg" },
+            { "name": "Power BI", "icon": "https://img.icons8.com/color/48/power-bi-2021.png" },
+            { "name": "Tableu", "icon": "https://img.icons8.com/color/48/tableau-software.png" },
             { "name": "Postman", "icon": "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" },
-            { "name": "VSCode", "icon": "https://img.icons8.com/fluency/50/visual-studio-code-2019.png" },
             { "name": "GitHub", "icon": "https://img.icons8.com/glyph-neue/48/ffffff/github.png" },
             { "name": "Bootstrap", "icon": "https://img.icons8.com/color/48/000000/bootstrap.png" },
             { "name": "TailwindCSS", "icon": "https://img.icons8.com/color/48/000000/tailwindcss.png" },
@@ -1680,7 +1684,7 @@ window.addEventListener('scroll', function() {
 // Typed.js Effect
 if (document.querySelector('.typing-text')) {
     new Typed('.typing-text', {
-        strings: ['System Analysis', 'Business Analysis', 'Technical Writing', 'Process Documentation'],
+        strings: ['System Analysis', 'Business Analysis', 'Data Analyst', 'Technical Writing'],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
